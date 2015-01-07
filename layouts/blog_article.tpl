@@ -39,7 +39,7 @@
           </div> <!-- //slogan -->
 
           <div id="content_left_inner">
-            <div id="content_left_inner2">
+            <div id="content_left_inner2" class="clearfix">
             <div class="blog clearfix">
 
               <div class="blog_heading">
@@ -132,7 +132,7 @@ value="{{"submit"|lc}}" /></td>
 
         </div> <!-- //content_left -->
 
-        <div id="content_right">
+        <div id="content_right" class="clearfix">
 
           {% include "News" %}
 

@@ -74,7 +74,7 @@
 
         </div> <!-- //content_left -->
 
-        <div id="content_right">
+        <div id="content_right" class="clearfix">
 
 
           <div id="darkbox">

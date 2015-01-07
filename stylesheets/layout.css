@@ -45,16 +45,16 @@ white-space: normal;
     margin: 0;
     padding: 0;
   width: 7%;
-    
+
     list-style-type: none;
     line-height: 18px;
   }
-  
+
   #langmenu li {
     padding: 0 0 0px 0;
     white-space: nowrap;
   }
-  
+
 
 /* header */
 
@@ -68,9 +68,9 @@ white-space: normal;
     height: 50px;
   }
 
-  
+
   /* navmenu */
-  
+
     #navmenu {
       padding: 0;
       margin: 0;
@@ -92,28 +92,28 @@ white-space: normal;
       padding: 5px 7px 0 7px;
       float: left;
     }
-    
+
     #navmenu a {
       float: left;
       line-height: 18px;
       padding-bottom: 5px;
     }
-    
+
   /* search */
-  
+
     #search {
       position: absolute;
       top: 20px;
       right: 13px;
     }
-    
+
     #search .textbox {
       float: right;
       padding: 3px 3px 3px;
       margin: 0 10px 0 0;
       width: 142px;
     }
-    
+
     #search .submit {
       float: right;
       padding: 0 15px 0 0;
@@ -128,56 +128,55 @@ white-space: normal;
     width: 94.2%;
     list-style-type: none;
   }
-  
+
   #submenu li {
     display: inline;
     line-height: 35px;
     padding: 0 6px;
   }
-  
+
   #submenu a {
     font-size: 15px;
     line-height: 35px;
   }
-  
+
   #submenu a.active {
     font-weight: bold;
   }
-  
-  
+
+
 /* content */
 
   #content {
-    
+
   }
-  
+
   /* content_left */
-  
+
     #content_left {
       float: left;
       width: 57.5%;
     }
-    
+
     #bigpic {
       width: 57.5%;
-      /*overflow: hidden;*/
     }
-    
+
     /* slogan */
-    
+
       #slogan {
         min-height: 62px;
         padding: 10px 10px;
       }
-      
+
       * html #slogan {
         height: 62px;
       }
-      
+
       #front #slogan {
         border: none;
       }
-      
+
         #slogan table {
           margin: 0;
           padding: 0;
@@ -185,7 +184,7 @@ white-space: normal;
           width: 100%;
           border-collapse: collapse;
         }
-        
+
         #slogan table td {
           vertical-align: middle;
           border: none;
@@ -197,135 +196,129 @@ white-space: normal;
         * html #slogan table td {
           height: 82px;
         }
-       
- 
+
+
     /* frontbox */
-    
+
       #frontbox {
         min-height: 87px;
         padding: 17px 25px;
       }
-      
+
       * html #frontbox {
         height: 87px;
       }
       #frontbox-inner {
          width: 100%;
-         overflow: hidden;
       }
-    
+
   /* content_left_inner */
-  
+
     #content_left_inner {
       padding: 20px 14px 10px 14px;
     }
     #content_left_inner2 {
       width: 500px;
-      overflow: hidden;
       padding-bottom: 1px;
     }
 
-    
-   
-    
+
+
+
     #content_left_inner h1 {
       padding-bottom: 22px;
       padding-top: 20px;
     }
-    
-    
+
+
   /* content_right */
-  
+
     #content_right {
       float: left;
       margin: 0 -3px 0 33px;
       width: 38%;
-  overflow: hidden;
     }
-    
+
     /* news */
-      
+
       #news {
         padding: 25px 5px 25px 20px;
         line-height: 18px;
         overflow-x: hidden;
       }
-      
-      
+
+
         #news h1 {
           padding-top: 0;
         }
-        
+
         #news table {
           margin: 0;
           padding: 0;
           border-collapse: collapse;
           border: none;
-        } 
-        
+        }
+
         #news table td {
           padding: 3px 0;
           border: none;
           vertical-align: top;
         }
-        
+
         #news td.first {
           padding-right: 15px;
         }
-      
+
     /* darkbox */
-    
+
       #darkbox {
         padding: 0px 17px 20px 0;
       }
-      
+
       #darkbox.two_column {
         padding: 20px 0 20px 0;
       }
-      
+
       #darkbox_inner {
         padding: 20px 0 20px 20px;
       }
 #darkbox_inner2 {
-  overflow: hidden;
   padding-bottom: 1px;
   padding-top: 1px;
   width: 100%;
 }
 #blackbox_inner {
-  overflow: hidden;
   padding-bottom: 1px;
   padding-top: 1px;
   width: 100%;
 }
-      
+
       #darkbox_left {
         float: left;
         width: 141px;
-        overflow: hidden;
         padding: 0 17px 0 17px;
       }
-      
+
         #darkbox_left .size1 { font-size: 10px; }
         #darkbox_left .size2 { font-size: 12px; }
         #darkbox_left .size3 { font-size: 14px; }
         #darkbox_left .size4 { font-size: 16px; }
         #darkbox_left .size5 { font-size: 18px; }
-      
+
       #darkbox_right {
         width: 141px;
         padding: 0 17px 0 17px;
         margin: 0 -3px 0 175px;
       }
-      
+
       #darkbox h1 {
         padding-top: 0px;
       }
-      
+
       #blackbox {
         padding: 10px 0 10px 20px;
       }
-      
+
       #blackbox table {
         margin: 0;
         padding: 0;
@@ -333,7 +326,7 @@ white-space: normal;
         border: none;
         width: 100%;
       }
-      
+
       #blackbox table td {
         padding: 0;
         border: none;
@@ -350,7 +343,7 @@ white-space: normal;
     display: block;
     border: none;
   }
-  
+
   .gallery_item {
     float: left;
     padding: 10px 2px 0 0px;
@@ -376,45 +369,45 @@ white-space: normal;
   #selected_picture {
     margin-top: 10px;
   }
-  
+
   #selected_picture img {
     display: block;
   }
-  
-  
+
+
 /* blog */
 
   .blog {
     padding-bottom: 20px;
   }
-    
+
     #content_left_inner .blog h1 {
       padding: 0;
     }
     #content_left_inner .blog h1 span {
        white-space: nowrap;
     }
-    
+
     .blogpic {
       display: block;
       float: left;
       margin: 0 13px 13px 0;
     }
-    
+
     .blog_heading {
       padding-bottom: 10px;
     }
-  
+
     .blog form {
       margin: 30px 0 0 0;
       padding: 0px 22px 10px;
     }
-    
+
     #content_left_inner .blog form h1 {
       padding-bottom: 22px;
       padding-top: 20px;
     }
-    
+
     .blog form table {
       margin: 0;
       padding: 0;
@@ -422,73 +415,73 @@ white-space: normal;
       width: 100%;
       border-collapse: collapse;
     }
-    
+
     .blog form table td {
       padding: 4px 0 ;
       border: none;
     }
-    
+
     .blog input.textbox, .blog textarea {
       border: none;
       padding: 4px 3px;
       margin: 0;
       font: normal 12px/15px Arial, Helvetica, sans-serif;
     }
-    
+
     .blog input.textbox {
       width: 125px;
     }
-    
+
     .blog textarea {
       width: 360px;
       display: block;
     }
-    
+
     .blog .submit {
       border: none;
       padding: 5px 10px;
     }
-  
+
     .comment {
       padding: 0px 0 10px;
     }
-    
+
     #content_left_inner .comment h1 {
       padding-bottom: 22px;
       padding-top: 20px;
     }
-    
+
     .comment_inner {
       padding: 0 0 15px 33px;
     }
-    
-    
+
+
     #content_left_inner .blog .blog_archive h1 {
       padding-bottom: 5px;
       padding-top: 20px;
     }
-    
+
     .blog_archive {
       padding: 5px 0 5px 0;
     }
-    
+
     .blog_archive td {
       padding: 0 2px;
       line-height: 20px;
     }
-    
-    
+
+
     .blog_archive .first {
       width: 30px;
     }
-    
+
     .blog_archive a.author {
       color: white;
     }
-    
-    
-/* footer */    
-  
+
+
+/* footer */
+
   #footer {
     font-size: 10px;
     line-height: 13px;
@@ -498,12 +491,12 @@ white-space: normal;
     padding-bottom: 15px;
     position: relative;
   }
-  
+
   #footer_inner {
     padding: 0 210px 0 15px;
   text-align: left;
   }
-  
+
   #edicy {
     position: absolute;
     top: 25px;
