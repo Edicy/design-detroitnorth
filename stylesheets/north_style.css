@@ -249,6 +249,27 @@ div.edy-taglist-openarrow:after {
 .tagged-list-header  a:hover { border-bottom: 1px solid #BEBEBE; }
 .article-tags .edy-taglist { margin-left: 25px; }
 
+/* Voog cms style overrides */
+.editmode .edy-empty-bordered {
+  color: #FFFFFF;
+  color: rgba(255, 255, 255, 0.5);
+  border: 1px dashed #FFFFFF;
+  border: 1px dashed rgba(255, 255, 255, 0.5);
+}
+.editmode .placeholder {
+  color: #FFFFFF;
+  color: rgba(255, 255, 255, 0.5);
+}
+.editmode .edy-content-element-hover {
+  border: 1px solid #FFFFFF;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+.editmode .edy-texteditor-active {
+  outline: 1px solid rgba(255, 255, 255, 0.4);
+}
+.editmode .edy-texteditor-active:hover {
+  outline: 1px solid rgba(255, 255, 255, 0.63);
+}
 
 @media screen and (max-width: 900px) {
  #container {
