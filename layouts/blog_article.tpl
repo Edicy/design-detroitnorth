@@ -50,18 +50,18 @@
 
                 <div class="clearer"></div>
               </div>
-              <div class="excerpt">{% editable article.excerpt %}</div>
-              <div style="padding-top:5px">
+              <div class="excerpt" data-search-indexing-allowed="true">{% editable article.excerpt %}</div>
+              <div style="padding-top:5px" data-search-indexing-allowed="true">
               {% editable article.body %}
 
               {% if editmode %}
-                <div class="article-tags">
+                <div class="article-tags" data-search-indexing-allowed="false">
                     <div class="article-tag-icon"></div>
                     {% editable article.tags %}
                 </div>
               {% else %}
                 {% unless article.tags == empty %}
-                    <div class="cfx article-tags">
+                    <div class="cfx article-tags" data-search-indexing-allowed="false">
                         <div class="article-tag-icon"></div>
                         {% for tag in article.tags %}
                             <a href="{{ article.page.url }}/tagged/{{ tag.path }}">{{ tag.name }}</a>{% unless forloop.last %}, {% endunless %}

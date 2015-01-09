@@ -23,7 +23,7 @@
 
         <div id="content_left">
 
-          <div id="bigpic" class="clearfix">
+          <div id="bigpic" class="clearfix" data-search-indexing-allowed="true">
             {% content name="image" %}
           </div> <!-- //bigpic -->
 
@@ -40,7 +40,7 @@
           </div> <!-- //slogan -->
 
           <div id="frontbox">
-            <div id="frontbox-inner" class="clearfix">
+            <div id="frontbox-inner" class="clearfix" data-search-indexing-allowed="true">
             {% content %}
             </div>
           </div> <!-- //frontbox -->

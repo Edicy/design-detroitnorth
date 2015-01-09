@@ -38,7 +38,7 @@
           </div> <!-- //slogan -->
 
           <div id="content_left_inner">
-            <div id="content_left_inner2" class="clearfix">
+            <div id="content_left_inner2" class="clearfix" data-search-indexing-allowed="true">
             {% content %}
             </div>
           </div> <!-- //content_left_inner -->
