@@ -8,7 +8,7 @@
 
 <body{% if editmode %} class="editmode"{% endif %}>
 
-	<div id="wrap">
+	<div id="wrap" class="content-hyphenate">
 
    {% include "Languagemenu" %}
 

@@ -13,7 +13,7 @@
 
     <div id="container">
 
-      <div id="header">
+      <div id="header" class="content-hyphenate">
 
         {% include "Mainmenu" %}
         {% include "Search" %}
@@ -22,7 +22,7 @@
 
       {% include "submenu" %}
 
-      <div id="content">
+      <div id="content" class="content-hyphenate">
 
         <div id="content_left">
 

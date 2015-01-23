@@ -38,6 +38,14 @@ h3 {
   line-height: 19px;
 }
 
+.content-hyphenate {
+  word-break: break-word;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+}
+
 #langmenu {
   right: 949px;
 }
@@ -271,6 +279,13 @@ div.edy-taglist-openarrow:after {
 
 #wrap .edy-taglist {
   border-color: rgba(255,255,255,.2);
+}
+
+#content .edy-btn-removecomment {
+  position: relative;
+  top: 2px;
+  color: rgba(255,255,255,1) !important;
+  line-height: 0 !important;
 }
 
 @media screen and (max-width: 900px) {

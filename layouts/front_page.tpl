@@ -7,19 +7,19 @@
 
 <body id="front"{% if editmode %} class="editmode"{% endif %}>
 
-	<div id="wrap">
+	<div id="wrap" class="content-hyphenate">
 
    {% include "Languagemenu" %}
 
     <div id="container">
 
-      <div id="header">
+      <div id="header" class="content-hyphenate">
 
         {% include "Mainmenu" %}
         {% include "Search" %}
       </div> <!-- //header -->
 
-      <div id="content">
+      <div id="content" class="content-hyphenate">
 
         <div id="content_left">
 
@@ -78,7 +78,7 @@
 
   <div id="footer">
 
-    <div id="footer_inner" class="clearfix">{% content name="footer" xpage="true" %}</div>
+    <div id="footer_inner" class="clearfix content-hyphenate">{% content name="footer" xpage="true" %}</div>
 
     <div id="edicy">
       {% loginblock %}{{ "footer_login_link" | lc }}{% endloginblock %}
