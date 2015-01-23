@@ -80,8 +80,10 @@ white-space: normal;
       list-style-type: none;
       z-index: 1;
       min-height: 37px;
-      width: 94.7%;
+    }
 
+    #navmenu.search-enabled {
+      max-width: 688px;
     }
     * html #navmenu {
       height: 37px;

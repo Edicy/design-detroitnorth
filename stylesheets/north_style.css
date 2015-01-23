@@ -258,22 +258,28 @@ div.edy-taglist-openarrow:after {
 .article-tags .edy-taglist { margin-left: 25px; }
 
 /* Voog cms style overrides */
-#wrap .edy-empty-bordered {
+#wrap .edy-empty-bordered,
+#footer .edy-empty-bordered {
   color: rgba(255,255,255,.33);
   border-color: rgba(255,255,255,.33);
 }
-#wrap .edy-texteditor-view.placeholder {
+#wrap .edy-texteditor-view.placeholder,
+#footer .edy-texteditor-view.placeholder {
   color: rgba(255,255,255,.5);
 }
-#wrap .edy-content-element-hover {
+#wrap .edy-content-element-hover,
+#footer .edy-content-element-hover {
   border-color: rgba(255,255,255,.1);
 }
-#wrap .edy-texteditor-active {
+#wrap .edy-texteditor-active,
+#footer .edy-texteditor-active {
   outline-color: rgba(255,255,255,.2);
 }
 
 #wrap .edy-fe-field-active,
-#wrap .edy-fe-active .edy-fe-field:hover {
+#footer .edy-fe-field-active,
+#wrap .edy-fe-active .edy-fe-field:hover,
+#footer .edy-fe-active .edy-fe-field:hover {
   outline-color: rgba(255,255,255,.1);
 }
 

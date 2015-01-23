@@ -6,9 +6,6 @@
     <script src="{{ javascripts_path }}/modernizr.js"></script>
     {% if site.search.enabled %}
         {% stylesheet_link "assets/site_search/3.0/style.css?1" static_host="true" %}
-        <style type="text/css">
-          #navmenu { width: 76.2%; }
-        </style>
     {% endif %}
 	{% stylesheet_link "layout.css?detroit1" %}
 	{% stylesheet_link "north_style.css?detroit1" %}
