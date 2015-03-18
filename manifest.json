@@ -38,49 +38,49 @@
       "component": true,
       "file": "components/js.tpl",
       "layout_name": "js",
-      "title": "js"
+      "title": "JS"
     },
     {
       "content_type": "component",
       "component": true,
       "file": "components/languagemenu.tpl",
       "layout_name": "languagemenu",
-      "title": "languagemenu"
+      "title": "Languagemenu"
     },
     {
       "content_type": "component",
       "component": true,
       "file": "components/mainmenu.tpl",
       "layout_name": "mainmenu",
-      "title": "mainmenu"
+      "title": "Mainmenu"
     },
     {
       "content_type": "component",
       "component": true,
       "file": "components/news.tpl",
       "layout_name": "news",
-      "title": "news"
+      "title": "News"
     },
     {
       "content_type": "component",
       "component": true,
       "file": "components/search.tpl",
       "layout_name": "search",
-      "title": "search"
+      "title": "Search"
     },
     {
       "content_type": "component",
       "component": true,
       "file": "components/siteheader.tpl",
       "layout_name": "siteheader",
-      "title": "siteheader"
+      "title": "SiteHeader"
     },
     {
       "content_type": "component",
       "component": true,
       "file": "components/submenu.tpl",
       "layout_name": "submenu",
-      "title": "submenu"
+      "title": "Submenu"
     }
   ],
   "assets": [
@@ -104,21 +104,9 @@
     },
     {
       "content_type": "image/gif",
-      "file": "images/north_bg_medium.gif",
-      "kind": "images",
-      "filename": "north_bg_medium.gif"
-    },
-    {
-      "content_type": "image/gif",
       "file": "images/north_clocks.gif",
       "kind": "images",
       "filename": "north_clocks.gif"
-    },
-    {
-      "content_type": "image/gif",
-      "file": "images/north_clocks_medium.gif",
-      "kind": "images",
-      "filename": "north_clocks_medium.gif"
     },
     {
       "content_type": "image/gif",
@@ -128,21 +116,9 @@
     },
     {
       "content_type": "image/gif",
-      "file": "images/north_frontbox_medium.gif",
-      "kind": "images",
-      "filename": "north_frontbox_medium.gif"
-    },
-    {
-      "content_type": "image/gif",
       "file": "images/north_search.gif",
       "kind": "images",
       "filename": "north_search.gif"
-    },
-    {
-      "content_type": "image/gif",
-      "file": "images/north_search_medium.gif",
-      "kind": "images",
-      "filename": "north_search_medium.gif"
     },
     {
       "content_type": "image/png",
