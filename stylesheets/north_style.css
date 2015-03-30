@@ -177,6 +177,12 @@ h3 {
   color: #dd0518;
   font: normal 10px/15px Arial, Helvetica, sans-serif;
 }
+
+.form_submit input:disabled {
+  color: #fff;
+  color: rgba(255,255,255,.5);
+}
+
 .excerpt {
   margin-bottom: 5px
 }
