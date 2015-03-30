@@ -121,6 +121,7 @@ h3 {
 }
 
 #news td.first {
+  min-width: 31px;
   color: #990000;
 }
 
